@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aafd545f35e5714f859dc99a80b22e7, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  Rows: 6
+  Columns: 6
+  moveIndex: 7
+  winPiece:
+    type: 0
+    IsVertical: 1
+    Size: 1
+    startPos: {x: 5, y: 3}
+  Pieces:
+  - type: 6
+    IsVertical: 1
+    Size: 2
+    startPos: {x: 0, y: 2}
+  - type: 9
+    IsVertical: 0
+    Size: 3
+    startPos: {x: 0, y: 3}
+  - type: 7
+    IsVertical: 0
+    Size: 2
+    startPos: {x: 1, y: 3}
+  - type: 6
+    IsVertical: 1
+    Size: 2
+    startPos: {x: 2, y: 2}
+  - type: 6
+    IsVertical: 1
+    Size: 2
+    startPos: {x: 2, y: 5}
+  - type: 7
+    IsVertical: 0
+    Size: 2
+    startPos: {x: 3, y: 3}
+  - type: 7
+    IsVertical: 0
+    Size: 2
+    startPos: {x: 4, y: 1}
+  - type: 6
+    IsVertical: 1
+    Size: 2
+    startPos: {x: 4, y: 4}
